@@ -280,6 +280,10 @@ TARGET_COMMON_QTI_COMPONENTS := all
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.sensors.allow_non_default_discovery=true \
