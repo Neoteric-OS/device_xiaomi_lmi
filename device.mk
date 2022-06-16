@@ -217,6 +217,7 @@ PRODUCT_PACKAGES += \
 
 # Incremental FS
 PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.fuse.passthrough.enable=true \
     ro.incremental.enable=1
 
 # Init
