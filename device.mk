@@ -276,9 +276,6 @@ TARGET_BOARD_PLATFORM := kona
 PRODUCT_PACKAGES += \
     PopupCameraSettings \
 
-# Project ID Quota
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := all
 
