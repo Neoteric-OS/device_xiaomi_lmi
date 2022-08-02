@@ -276,9 +276,9 @@ PRODUCT_PACKAGES += \
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := all
 
-# Recovery
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.flash.recovery=1
+# RenderScript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
