@@ -149,6 +149,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.frame_rate_multiple_threshold=81 \
     ro.vendor.display.paneltype=2 \
     ro.vendor.display.sensortype=2 \
     vendor.display.enable_async_powermode=0 \
