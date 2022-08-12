@@ -108,12 +108,6 @@ KERNEL_DEFCONFIG := lmi_defconfig
 
 KERNEL_LLVM_SUPPORT := true
 
-TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-yuki
-TARGET_KERNEL_CLANG_VERSION := yuki
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
-TARGET_CLANG_WITH_GNU_BINUTILS := true
-
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
