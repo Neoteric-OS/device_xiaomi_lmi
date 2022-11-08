@@ -1,5 +1,2 @@
 allow vendor_wcnss_service vendor_wifi_vendor_wpa_socket:dir create_dir_perms;
 allow vendor_wcnss_service vendor_wifi_vendor_wpa_socket:sock_file create_file_perms;
-
-# allow nv_mac to create /mnt/vendor/persist/wlan_mac.bin
-allow vendor_wcnss_service persist_wifi_file:file create_file_perms;
