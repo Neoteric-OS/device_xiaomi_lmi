@@ -302,7 +302,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # SOC Properties
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.soc.manufacturer=QTI \
     ro.soc.model=SM8250
 
 # Thermal
