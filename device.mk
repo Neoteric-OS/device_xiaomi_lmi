@@ -186,6 +186,10 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.touchfeature@1.0.vendor \
     libudfpshandler
 
+# Feature Flags
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # FRP
 PRODUCT_VENDOR_PROPERTIES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
