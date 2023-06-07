@@ -234,6 +234,12 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/lmi-miuicamera/config.mk)
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.product.mod_device=lmi_global
+
 # Motor
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
