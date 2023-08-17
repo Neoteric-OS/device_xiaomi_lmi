@@ -289,7 +289,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePackages
+    lmiRemovePackages
 
 # Sensors
 PRODUCT_VENDOR_PROPERTIES += \
