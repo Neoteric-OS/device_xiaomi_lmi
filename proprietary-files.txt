@@ -1257,10 +1257,10 @@ vendor/bin/tloc_daemon
 vendor/etc/init/tloc_daemon.rc
 
 # Thermal (limits-hal)
-vendor/bin/hw/vendor.qti.hardware.limits@1.0-service
-vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc
-vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml
-vendor/lib64/vendor.qti.hardware.limits@1.0.so
+vendor/bin/hw/vendor.qti.hardware.limits@1.0-service|0b8947b9f6ddc6953a324ea43e33bcc8f7edab26
+vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc|77c989d8d59b99716b900e96d94a4aa9bcab6aa6
+vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml|6109f13748cb74b7d042e2604a9883a1b071e810
+vendor/lib64/vendor.qti.hardware.limits@1.0.so|8fef74ce2bef2e064e0ccef4a302c995cdfca7c8
 
 # Thermal
 vendor/bin/mi_thermald
