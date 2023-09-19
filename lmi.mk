@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from the custom device configuration
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
-# Inherit common Project Zephyrus-CAF configuration
-$(call inherit-product, vendor/zephyrus/target/product/zephyrus-target.mk)
+# Inherit common Neoteric-OS configuration
+$(call inherit-product, vendor/neoteric/target/product/neoteric-target.mk)
 
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
