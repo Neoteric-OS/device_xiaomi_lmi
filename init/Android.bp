@@ -52,6 +52,12 @@ sh_binary {
 }
 
 sh_binary {
+    name: "init.qcom.post_boot.sh",
+    src: "init.qcom.post_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
     name: "init.qti.dcvs.sh",
     src: "init.qti.dcvs.sh",
     vendor: true,

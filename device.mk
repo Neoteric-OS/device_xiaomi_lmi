@@ -217,6 +217,7 @@ PRODUCT_PACKAGES += \
     init.xiaomi.rc \
     init.mi.btmac.sh \
     init.mi.usb.sh \
+    init.qcom.post_boot.sh \
     init.qti.dcvs.sh \
     init.target.rc \
     ueventd.xiaomi.rc
