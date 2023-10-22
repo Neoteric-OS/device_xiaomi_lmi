@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2015 The CyanogenMod Project
+ *               2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,21 +15,18 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera;
+package org.neoteric.device.DeviceExtras.popupcamera.sensors;
 
-import android.content.Context;
-import android.content.Intent;
-import android.os.UserHandle;
-import android.util.Log;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 
-public class PopupCameraUtils {
-
-    private static final String TAG = "PopupCameraUtils";
-    private static final boolean DEBUG = false;
-
-    public static void startService(Context context) {
-        if (DEBUG) Log.d(TAG, "Starting service");
-        context.startServiceAsUser(new Intent(context, PopupCameraService.class),
-                UserHandle.CURRENT);
+public final class SensorsUtils {
+    public static Sensor getSensor(SensorManager sm, String type) {
+        for (Sensor sensor : sm.getSensorList(Sensor.TYPE_ALL)) {
+            if (type.equals(sensor.getStringType())) {
+                return sensor;
+            }
+        }
+        return null;
     }
 }

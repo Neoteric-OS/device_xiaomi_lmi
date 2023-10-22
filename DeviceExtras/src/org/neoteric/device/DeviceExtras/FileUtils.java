@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera.utils;
+package org.neoteric.device.DeviceExtras.utils;
 
 import android.util.Log;
 

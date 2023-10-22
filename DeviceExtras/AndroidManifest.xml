@@ -17,7 +17,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.popupcamera"
+    package="org.neoteric.device.DeviceExtras"
     android:versionCode="1"
     android:versionName="1.0"
     android:sharedUserId="android.uid.system">
@@ -42,13 +42,14 @@
             </intent-filter>
         </receiver>
 
+        <!-- Pop Up Camera -->
         <service
-            android:name=".PopupCameraService"
+            android:name=".popupcamera.PopupCameraService"
             android:permission="PopupCameraService">
         </service>
 
         <activity
-            android:name=".PopupCameraSettingsActivity"
+            android:name=".popupcamera.PopupCameraSettingsActivity"
             android:label="@string/popup_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>

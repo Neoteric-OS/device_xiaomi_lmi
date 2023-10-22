@@ -16,19 +16,19 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera;
+package org.neoteric.device.DeviceExtras;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import co.aospa.popupcamera.PopupCameraUtils;
+import org.neoteric.device.DeviceExtras.popupcamera.PopupCameraUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
     private static final boolean DEBUG = false;
-    private static final String TAG = "PopupCameraSettings";
+    private static final String TAG = "DeviceExtras";
 
     @Override
     public void onReceive(final Context context, Intent intent) {

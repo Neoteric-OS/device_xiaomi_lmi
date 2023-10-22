@@ -1,0 +1,2 @@
+type deviceextras_app, domain;
+typeattribute deviceextras_app mlstrustedsubject;

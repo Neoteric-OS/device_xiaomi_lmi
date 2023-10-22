@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera;
+package org.neoteric.device.DeviceExtras.popupcamera;
 
 import android.annotation.NonNull;
 import android.app.AlertDialog;
@@ -39,10 +39,10 @@ import android.util.Log;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-import co.aospa.popupcamera.R;
-import co.aospa.popupcamera.sensors.ProximitySensor;
-import co.aospa.popupcamera.sensors.SensorsUtils;
-import co.aospa.popupcamera.utils.FileUtils;
+import org.neoteric.device.DeviceExtras.R;
+import org.neoteric.device.DeviceExtras.utils.FileUtils;
+import org.neoteric.device.DeviceExtras.popupcamera.sensors.ProximitySensor;
+import org.neoteric.device.DeviceExtras.popupcamera.sensors.SensorsUtils;
 
 import vendor.xiaomi.hardware.motor.V1_0.IMotor;
 import vendor.xiaomi.hardware.motor.V1_0.IMotorCallback;

@@ -1,2 +1,0 @@
-type popupcamera_app, domain;
-typeattribute popupcamera_app mlstrustedsubject;

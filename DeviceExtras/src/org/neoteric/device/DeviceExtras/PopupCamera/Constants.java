@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera;
+package org.neoteric.device.DeviceExtras.popupcamera;
 
 public class Constants {
     public static final int CAMERA_EVENT_DELAY_TIME = 100; // ms

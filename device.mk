@@ -128,6 +128,10 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.data.mode=concurrent \
     ro.vendor.use_data_netmgrd=true
 
+# Device Extras Settings
+PRODUCT_PACKAGES += \
+    DeviceExtras \
+
 # Display
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.frame_rate_multiple_threshold=81 \
@@ -272,10 +276,6 @@ PRODUCT_COPY_FILES += \
 
 # Platform
 TARGET_BOARD_PLATFORM := kona
-
-# Popup Camera Settings
-PRODUCT_PACKAGES += \
-    PopupCameraSettings \
 
 # QCRIL
 PRODUCT_VENDOR_PROPERTIES += \
